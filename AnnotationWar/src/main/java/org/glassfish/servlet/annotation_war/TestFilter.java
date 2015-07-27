@@ -66,6 +66,7 @@ import javax.servlet.annotation.WebInitParam;
 public class TestFilter implements Filter {
 
     String mesg = null;
+    String prueba;
 
     public void init(FilterConfig filterConfig) throws ServletException {
         mesg = filterConfig.getInitParameter("mesg");
